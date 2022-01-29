@@ -1,0 +1,64 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+body {
+    margin: 1rem;
+    padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 18.75rem;
+    border-radius: 0.3125rem;
+    box-shadow: 0 0 0.3125rem black;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0 0 1.875rem black;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-bottom: 0.625rem;
+    align-items: center;
+}
+
+.card-header {
+    display: flex;
+    flex-direction: column;
+    padding: 0.625rem;
+}
+
+.card-content {
+    padding: 0.625rem
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-button {
+    cursor: pointer;
+    padding: 0.3125rem 0.625rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.card-link {
+    color: darkviolet;
+}
+
+.card-button:hover {
+    background: whitesmoke;
+    border-radius: 0.3125rem;
+}
